@@ -4,6 +4,7 @@ export const Form = styled.div`
     width: 100%;
 
     form {
+        margin-top: 20px;
 
         div {
             width: 100%;
@@ -29,6 +30,11 @@ export const Form = styled.div`
             font-size: 12pt;
             display: flex;
             flex-direction: column;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: black;
         }
 
     }
